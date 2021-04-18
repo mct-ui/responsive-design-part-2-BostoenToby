@@ -675,16 +675,44 @@ a:focus {
     justify-content: space-between;
   }
 
-  .c-footer__logo {
-    padding: 0;
+  .c-footer__nav {
+    width: auto;
   }
 
   .c-footer__logo .c-logo {
     order: -1;
   }
 
-  .c-footer__nav {
-    width: auto;
+  .c-footer__logo {
+    padding: 0;
+  }
+}
+
+/*
+    Component: Title icon
+    ---
+    Special type of title with icon
+*/
+
+.c-title-icon {
+  display: flex;
+  align-items: flex-start;
+}
+
+.c-title-icon__icon {
+  height: 72px;
+  margin-right: 20px;
+}
+
+@media (min-width: 768px) {
+  .c-title-icon__icon {
+    height: 84px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .c-title-icon__icon {
+    height: 112px;
   }
 }
 
